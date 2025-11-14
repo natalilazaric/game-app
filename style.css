@@ -1,0 +1,28 @@
+:root{
+    --canvas-border: 5px;
+}
+
+html,body {
+    height: 100%;
+    margin: 0;
+    font-family: Helvetica;
+    background: #ffffff;
+}
+
+.wraper{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gameCanvas {
+    background: black;
+    border: var(--canvas-border) solid white;
+    display: block;
+    box-sizing: content-box;
+}
+
+@media print {
+    #gameCanvas { border: none; }
+}
