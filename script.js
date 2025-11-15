@@ -258,7 +258,7 @@
 
         if(gotovo){
             kontekst.textBaseline = 'middle';
-            kontekst.font = 'bold 36px Helvetica';
+            kontekst.font = 'bold 40px Helvetica';
             kontekst.fillStyle = 'yellow';
             kontekst.textAlign = 'center';
             kontekst.fillText('GAME OVER', sirina_canvas/2, visina_canvas/2);
@@ -266,7 +266,7 @@
 
         if(pobjeda){
             kontekst.textBaseline = 'middle';
-            kontekst.font = 'bold 36px Helvetica';
+            kontekst.font = 'bold 40px Helvetica';
             kontekst.fillStyle = 'yellow';
             kontekst.textAlign = 'center';
             kontekst.fillText('YOU WIN', sirina_canvas/2, visina_canvas/2);
