@@ -250,7 +250,7 @@
             kontekst.font = 'bold 36px Helvetica';
             kontekst.fillStyle = 'white';
             kontekst.textAlign = 'center';
-            kontekst.fillText('BREAKOUT', sirina_canvas/2, visina_canvas/2 -12);
+            kontekst.fillText('BREAKOUT', sirina_canvas/2, visina_canvas/2);
             kontekst.font = 'italic bold 18px Helvetica';
             kontekst.fillStyle = 'white';
             kontekst.fillText('Press SPACE to begin', sirina_canvas/2, visina_canvas/2 +28);
@@ -261,7 +261,7 @@
             kontekst.font = 'bold 36px Helvetica';
             kontekst.fillStyle = 'yellow';
             kontekst.textAlign = 'center';
-            kontekst.fillText('GAME OVER', sirina_canvas/2, visina_canvas/2 -12);
+            kontekst.fillText('GAME OVER', sirina_canvas/2, visina_canvas/2);
         }
 
         if(pobjeda){
@@ -269,7 +269,7 @@
             kontekst.font = 'bold 36px Helvetica';
             kontekst.fillStyle = 'yellow';
             kontekst.textAlign = 'center';
-            kontekst.fillText('YOU WIN', sirina_canvas/2, visina_canvas/2 -12);
+            kontekst.fillText('YOU WIN', sirina_canvas/2, visina_canvas/2);
         }
     }
 
