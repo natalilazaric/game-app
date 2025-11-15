@@ -240,9 +240,9 @@
         kontekst.fillStyle = 'white';
         kontekst.textBaseline = 'top';
         kontekst.textAlign = 'left';
-        kontekst.fillText('Bodovi: ' + bodovi, 20, 10);
+        kontekst.fillText('Bodovi: ' + bodovi, 20, 20);
         kontekst.textAlign = 'right';
-        kontekst.fillText('Maks: ' + max_bodovi, sirina_canvas -20, 10);
+        kontekst.fillText('Maks: ' + max_bodovi, sirina_canvas -100, 20);
 
         //prikaz tekstova ovisno o stanju igre
         if(!trenutno && !gotovo && !pobjeda){
